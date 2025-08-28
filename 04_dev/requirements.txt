@@ -1,0 +1,38 @@
+# QuizGenius MVP - Python Dependencies
+
+# Streamlit Framework
+streamlit>=1.28.0
+streamlit-authenticator>=0.2.0
+
+# AWS SDK
+boto3>=1.34.0
+botocore>=1.34.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Authentication & Security
+bcrypt>=4.0.0
+python-jose[cryptography]>=3.3.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.12.0
+moto>=4.2.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.13.0
+
+# Utilities
+requests>=2.31.0
+python-dateutil>=2.8.0

@@ -1,0 +1,345 @@
+{
+  "phase": "4.2.1",
+  "test_date": "2025-08-28T10:35:17.634520",
+  "total_tests": 56,
+  "passed_tests": 56,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test_name": "Test Creation Service Available",
+      "passed": true,
+      "details": "Test creation service initialized",
+      "timestamp": "2025-08-28T10:35:14.167349"
+    },
+    {
+      "test_name": "Method create_test exists",
+      "passed": true,
+      "details": "Method create_test available",
+      "timestamp": "2025-08-28T10:35:14.167389"
+    },
+    {
+      "test_name": "Method update_test exists",
+      "passed": true,
+      "details": "Method update_test available",
+      "timestamp": "2025-08-28T10:35:14.167413"
+    },
+    {
+      "test_name": "Method get_test_by_id exists",
+      "passed": true,
+      "details": "Method get_test_by_id available",
+      "timestamp": "2025-08-28T10:35:14.167444"
+    },
+    {
+      "test_name": "Method get_tests_by_instructor exists",
+      "passed": true,
+      "details": "Method get_tests_by_instructor available",
+      "timestamp": "2025-08-28T10:35:14.167452"
+    },
+    {
+      "test_name": "Method validate_test_config exists",
+      "passed": true,
+      "details": "Method validate_test_config available",
+      "timestamp": "2025-08-28T10:35:14.167460"
+    },
+    {
+      "test_name": "Method get_test_preview exists",
+      "passed": true,
+      "details": "Method get_test_preview available",
+      "timestamp": "2025-08-28T10:35:14.167467"
+    },
+    {
+      "test_name": "Method delete_test exists",
+      "passed": true,
+      "details": "Method delete_test available",
+      "timestamp": "2025-08-28T10:35:14.167478"
+    },
+    {
+      "test_name": "Method duplicate_test exists",
+      "passed": true,
+      "details": "Method duplicate_test available",
+      "timestamp": "2025-08-28T10:35:14.167487"
+    },
+    {
+      "test_name": "Question Service Integration",
+      "passed": true,
+      "details": "Question service integrated",
+      "timestamp": "2025-08-28T10:35:14.167495"
+    },
+    {
+      "test_name": "Database Table Access",
+      "passed": true,
+      "details": "DynamoDB tables accessible",
+      "timestamp": "2025-08-28T10:35:14.383746"
+    },
+    {
+      "test_name": "Metadata Structure",
+      "passed": true,
+      "details": "All required metadata fields present",
+      "timestamp": "2025-08-28T10:35:14.383799"
+    },
+    {
+      "test_name": "Title Validation",
+      "passed": true,
+      "details": "Title length: 17 chars",
+      "timestamp": "2025-08-28T10:35:14.383811"
+    },
+    {
+      "test_name": "Time Limit Validation",
+      "passed": true,
+      "details": "Time limit: 60 minutes",
+      "timestamp": "2025-08-28T10:35:14.383820"
+    },
+    {
+      "test_name": "Attempts Validation",
+      "passed": true,
+      "details": "Attempts allowed: 2",
+      "timestamp": "2025-08-28T10:35:14.383828"
+    },
+    {
+      "test_name": "Passing Score Validation",
+      "passed": true,
+      "details": "Passing score: 75.0%",
+      "timestamp": "2025-08-28T10:35:14.383849"
+    },
+    {
+      "test_name": "Tags Processing",
+      "passed": true,
+      "details": "Tags: ['math', 'algebra', 'basic']",
+      "timestamp": "2025-08-28T10:35:14.383863"
+    },
+    {
+      "test_name": "Manual Question Selection",
+      "passed": true,
+      "details": "Selected 3 questions manually",
+      "timestamp": "2025-08-28T10:35:14.384038"
+    },
+    {
+      "test_name": "Smart Selection Criteria",
+      "passed": true,
+      "details": "Smart selection criteria: {'num_questions': 5, 'difficulty_preference': 'mixed', 'quality_threshold': 7.0, 'topic_preference': None}",
+      "timestamp": "2025-08-28T10:35:14.384060"
+    },
+    {
+      "test_name": "Filtered Question Selection",
+      "passed": true,
+      "details": "Filtered selection found 7 questions",
+      "timestamp": "2025-08-28T10:35:14.384077"
+    },
+    {
+      "test_name": "Bulk Selection Operations",
+      "passed": true,
+      "details": "Bulk operations available for 10 questions",
+      "timestamp": "2025-08-28T10:35:14.384086"
+    },
+    {
+      "test_name": "Configuration Structure",
+      "passed": true,
+      "details": "All configuration options are boolean",
+      "timestamp": "2025-08-28T10:35:14.384114"
+    },
+    {
+      "test_name": "Randomization Options",
+      "passed": true,
+      "details": "Question randomization: True, Option randomization: False",
+      "timestamp": "2025-08-28T10:35:14.384126"
+    },
+    {
+      "test_name": "Result Display Options",
+      "passed": true,
+      "details": "Immediate results: True",
+      "timestamp": "2025-08-28T10:35:14.384134"
+    },
+    {
+      "test_name": "Timing Options",
+      "passed": true,
+      "details": "Timing options configured: {'time_limit_enabled': True, 'warning_enabled': True, 'auto_submit_enabled': True}",
+      "timestamp": "2025-08-28T10:35:14.384146"
+    },
+    {
+      "test_name": "Preview Data Structure",
+      "passed": true,
+      "details": "Preview contains all required sections",
+      "timestamp": "2025-08-28T10:35:14.384229"
+    },
+    {
+      "test_name": "Statistics Calculation",
+      "passed": true,
+      "details": "Stats: 10 questions, 20 min estimated",
+      "timestamp": "2025-08-28T10:35:14.384241"
+    },
+    {
+      "test_name": "Question Preview",
+      "passed": true,
+      "details": "Question preview shows 10 questions with required fields",
+      "timestamp": "2025-08-28T10:35:14.384254"
+    },
+    {
+      "test_name": "Test Information Display",
+      "passed": true,
+      "details": "Test information contains all required fields",
+      "timestamp": "2025-08-28T10:35:14.384263"
+    },
+    {
+      "test_name": "Valid Configuration Validation",
+      "passed": true,
+      "details": "Valid config structure validation: 0 structural errors",
+      "timestamp": "2025-08-28T10:35:14.681847"
+    },
+    {
+      "test_name": "Invalid Configuration Rejection",
+      "passed": true,
+      "details": "Invalid config rejected with 7 errors",
+      "timestamp": "2025-08-28T10:35:14.681903"
+    },
+    {
+      "test_name": "Test ID Generation",
+      "passed": true,
+      "details": "Test ID format valid: test_123",
+      "timestamp": "2025-08-28T10:35:14.682177"
+    },
+    {
+      "test_name": "Timestamp Generation",
+      "passed": "2025-08-28T10:35:14.681929",
+      "details": "Timestamps generated: created=2025-08-28T10:35:14",
+      "timestamp": "2025-08-28T10:35:14.682206"
+    },
+    {
+      "test_name": "Title Validation",
+      "passed": true,
+      "details": "Title validation working for 5 test cases",
+      "timestamp": "2025-08-28T10:35:15.231424"
+    },
+    {
+      "test_name": "Question Count Validation",
+      "passed": true,
+      "details": "Question count validation working for 4 test cases",
+      "timestamp": "2025-08-28T10:35:15.631442"
+    },
+    {
+      "test_name": "Numeric Field Validation",
+      "passed": true,
+      "details": "Numeric validation working for 9 test cases",
+      "timestamp": "2025-08-28T10:35:16.581534"
+    },
+    {
+      "test_name": "Table Access",
+      "passed": true,
+      "details": "DynamoDB tables accessible",
+      "timestamp": "2025-08-28T10:35:16.781783"
+    },
+    {
+      "test_name": "Test Retrieval",
+      "passed": true,
+      "details": "Test retrieval returns list: True",
+      "timestamp": "2025-08-28T10:35:16.882903"
+    },
+    {
+      "test_name": "Test By ID Retrieval",
+      "passed": true,
+      "details": "Test by ID retrieval handles nonexistent tests",
+      "timestamp": "2025-08-28T10:35:16.981910"
+    },
+    {
+      "test_name": "Question Association",
+      "passed": true,
+      "details": "Question association method works for 3 questions",
+      "timestamp": "2025-08-28T10:35:16.982021"
+    },
+    {
+      "test_name": "Duplicate Test Structure",
+      "passed": true,
+      "details": "Duplicate has different title: Sample Test Title (Copy)",
+      "timestamp": "2025-08-28T10:35:16.982062"
+    },
+    {
+      "test_name": "Update Test Structure",
+      "passed": true,
+      "details": "Update data contains required fields: ['title', 'description', 'time_limit', 'passing_score']",
+      "timestamp": "2025-08-28T10:35:16.982081"
+    },
+    {
+      "test_name": "Delete Test Structure",
+      "passed": true,
+      "details": "Deletion data structure valid: {'test_id': 'test_to_delete', 'instructor_id': 'test_instructor_123', 'soft_delete': True, 'status_change': 'deleted'}",
+      "timestamp": "2025-08-28T10:35:16.982096"
+    },
+    {
+      "test_name": "Filter Options Structure",
+      "passed": true,
+      "details": "Filter options available: ['status', 'tags', 'sort_options']",
+      "timestamp": "2025-08-28T10:35:16.982115"
+    },
+    {
+      "test_name": "Missing Fields Error",
+      "passed": true,
+      "details": "Missing required fields properly handled",
+      "timestamp": "2025-08-28T10:35:16.982140"
+    },
+    {
+      "test_name": "Invalid Types Error",
+      "passed": true,
+      "details": "Invalid data types handled gracefully",
+      "timestamp": "2025-08-28T10:35:16.982159"
+    },
+    {
+      "test_name": "Nonexistent Questions Error",
+      "passed": true,
+      "details": "Nonexistent question references handled",
+      "timestamp": "2025-08-28T10:35:17.181867"
+    },
+    {
+      "test_name": "Database Error Handling",
+      "passed": true,
+      "details": "Database connection errors handled",
+      "timestamp": "2025-08-28T10:35:17.182093"
+    },
+    {
+      "test_name": "Instructor Ownership Validation",
+      "passed": true,
+      "details": "Test creator matches requesting user",
+      "timestamp": "2025-08-28T10:35:17.182135"
+    },
+    {
+      "test_name": "Cross-Instructor Access Prevention",
+      "passed": true,
+      "details": "Cross-instructor access properly blocked",
+      "timestamp": "2025-08-28T10:35:17.182145"
+    },
+    {
+      "test_name": "Question Ownership Validation",
+      "passed": true,
+      "details": "Question and test creators match",
+      "timestamp": "2025-08-28T10:35:17.182154"
+    },
+    {
+      "test_name": "Input Sanitization",
+      "passed": true,
+      "details": "Input sanitization tested with 4 cases",
+      "timestamp": "2025-08-28T10:35:17.631565"
+    },
+    {
+      "test_name": "Form Components Structure",
+      "passed": true,
+      "details": "All form sections have components: ['metadata_form', 'configuration_options', 'question_selection', 'preview_sections']",
+      "timestamp": "2025-08-28T10:35:17.631630"
+    },
+    {
+      "test_name": "Navigation Components",
+      "passed": true,
+      "details": "All navigation components available: ['create_test_button', 'back_to_list_button', 'preview_button', 'edit_button', 'publish_button']",
+      "timestamp": "2025-08-28T10:35:17.631686"
+    },
+    {
+      "test_name": "Selection Interface Components",
+      "passed": true,
+      "details": "All selection components available: ['question_checkboxes', 'select_all_button', 'clear_all_button', 'filter_controls', 'search_functionality']",
+      "timestamp": "2025-08-28T10:35:17.631711"
+    },
+    {
+      "test_name": "Preview Components",
+      "passed": true,
+      "details": "All preview components available: ['test_metadata_display', 'statistics_display', 'question_preview', 'configuration_summary']",
+      "timestamp": "2025-08-28T10:35:17.631729"
+    }
+  ]
+}

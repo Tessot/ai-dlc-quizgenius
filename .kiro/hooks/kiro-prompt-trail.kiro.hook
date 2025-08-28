@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Kiro Prompt & Response Trail",
+  "description": "Captures all prompts sent to Kiro AI and responses received, maintaining them in a single consolidated file for easy reference during QuizGenius development",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Please analyze any recent interactions with Kiro AI (prompts sent and responses received) and append them to a file called 'kiro_prompt_trail.md' in a structured format with timestamps, prompt content, and response content. Format each entry with clear headers and maintain chronological order. Do a copy and past of the prompt content and response do not summarise or provide an overview"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "phase": "4.1",
+  "test_date": "2025-08-28T09:33:19.536740",
+  "total_tests": 50,
+  "passed_tests": 50,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test_name": "Storage Service Available",
+      "passed": true,
+      "details": "Storage service initialized",
+      "timestamp": "2025-08-28T09:33:19.144263"
+    },
+    {
+      "test_name": "Storage Connection",
+      "passed": true,
+      "details": "Successfully connected to storage",
+      "timestamp": "2025-08-28T09:33:19.245368"
+    },
+    {
+      "test_name": "Question Retrieval Methods",
+      "passed": true,
+      "details": "Retrieved 0 by instructor, 0 by document",
+      "timestamp": "2025-08-28T09:33:19.435094"
+    },
+    {
+      "test_name": "Question Structure - test_mc_1",
+      "passed": true,
+      "details": "Has all required fields",
+      "timestamp": "2025-08-28T09:33:19.435180"
+    },
+    {
+      "test_name": "Question Structure - test_mc_2",
+      "passed": true,
+      "details": "Has all required fields",
+      "timestamp": "2025-08-28T09:33:19.435208"
+    },
+    {
+      "test_name": "Question Structure - test_tf_1",
+      "passed": true,
+      "details": "Has all required fields",
+      "timestamp": "2025-08-28T09:33:19.435223"
+    },
+    {
+      "test_name": "Question Structure - test_tf_2",
+      "passed": true,
+      "details": "Has all required fields",
+      "timestamp": "2025-08-28T09:33:19.435235"
+    },
+    {
+      "test_name": "Question Text Length - test_mc_1",
+      "passed": true,
+      "details": "Text length: 30 chars",
+      "timestamp": "2025-08-28T09:33:19.435249"
+    },
+    {
+      "test_name": "Question Text Length - test_mc_2",
+      "passed": true,
+      "details": "Text length: 64 chars",
+      "timestamp": "2025-08-28T09:33:19.435263"
+    },
+    {
+      "test_name": "Question Text Length - test_tf_1",
+      "passed": true,
+      "details": "Text length: 43 chars",
+      "timestamp": "2025-08-28T09:33:19.435275"
+    },
+    {
+      "test_name": "Question Text Length - test_tf_2",
+      "passed": true,
+      "details": "Text length: 62 chars",
+      "timestamp": "2025-08-28T09:33:19.435285"
+    },
+    {
+      "test_name": "Question Metadata - test_mc_1",
+      "passed": true,
+      "details": "Has metadata fields",
+      "timestamp": "2025-08-28T09:33:19.435299"
+    },
+    {
+      "test_name": "Question Metadata - test_mc_2",
+      "passed": true,
+      "details": "Has metadata fields",
+      "timestamp": "2025-08-28T09:33:19.435312"
+    },
+    {
+      "test_name": "Question Metadata - test_tf_1",
+      "passed": true,
+      "details": "Has metadata fields",
+      "timestamp": "2025-08-28T09:33:19.435324"
+    },
+    {
+      "test_name": "Question Metadata - test_tf_2",
+      "passed": true,
+      "details": "Has metadata fields",
+      "timestamp": "2025-08-28T09:33:19.435335"
+    },
+    {
+      "test_name": "MC Type Identification",
+      "passed": true,
+      "details": "Multiple choice type correctly identified",
+      "timestamp": "2025-08-28T09:33:19.435364"
+    },
+    {
+      "test_name": "TF Type Identification",
+      "passed": true,
+      "details": "True/false type correctly identified",
+      "timestamp": "2025-08-28T09:33:19.435374"
+    },
+    {
+      "test_name": "MC Options Present",
+      "passed": true,
+      "details": "MC question has 4 options",
+      "timestamp": "2025-08-28T09:33:19.435387"
+    },
+    {
+      "test_name": "TF Boolean Answer",
+      "passed": true,
+      "details": "TF answer is boolean: True",
+      "timestamp": "2025-08-28T09:33:19.435397"
+    },
+    {
+      "test_name": "MC Formatting - test_mc_1",
+      "passed": true,
+      "details": "Text: True, Options: True, Answer valid: True",
+      "timestamp": "2025-08-28T09:33:19.435439"
+    },
+    {
+      "test_name": "MC Formatting - test_mc_2",
+      "passed": true,
+      "details": "Text: True, Options: True, Answer valid: True",
+      "timestamp": "2025-08-28T09:33:19.435460"
+    },
+    {
+      "test_name": "TF Formatting - test_tf_1",
+      "passed": true,
+      "details": "Text: True, Boolean answer: True",
+      "timestamp": "2025-08-28T09:33:19.435475"
+    },
+    {
+      "test_name": "TF Formatting - test_tf_2",
+      "passed": true,
+      "details": "Text: True, Boolean answer: True",
+      "timestamp": "2025-08-28T09:33:19.435489"
+    },
+    {
+      "test_name": "Type Filter - MC",
+      "passed": true,
+      "details": "Found 2 multiple choice questions",
+      "timestamp": "2025-08-28T09:33:19.435523"
+    },
+    {
+      "test_name": "Type Filter - TF",
+      "passed": true,
+      "details": "Found 2 true/false questions",
+      "timestamp": "2025-08-28T09:33:19.435535"
+    },
+    {
+      "test_name": "Topic Filter",
+      "passed": true,
+      "details": "Found 4 unique topics: ['Geography', 'Astronomy', 'Machine Learning', 'Programming']",
+      "timestamp": "2025-08-28T09:33:19.435579"
+    },
+    {
+      "test_name": "Difficulty Filter",
+      "passed": true,
+      "details": "Found 3 difficulty levels: ['hard', 'easy', 'medium']",
+      "timestamp": "2025-08-28T09:33:19.435595"
+    },
+    {
+      "test_name": "Sort by Date",
+      "passed": true,
+      "details": "Sorted 4 questions by date",
+      "timestamp": "2025-08-28T09:33:19.435626"
+    },
+    {
+      "test_name": "Sort by Quality",
+      "passed": true,
+      "details": "Sorted 4 questions by quality",
+      "timestamp": "2025-08-28T09:33:19.435638"
+    },
+    {
+      "test_name": "Sort by Type",
+      "passed": true,
+      "details": "Sorted 4 questions by type",
+      "timestamp": "2025-08-28T09:33:19.435650"
+    },
+    {
+      "test_name": "Individual Selection",
+      "passed": true,
+      "details": "Selected 3 questions individually",
+      "timestamp": "2025-08-28T09:33:19.435676"
+    },
+    {
+      "test_name": "Select All",
+      "passed": true,
+      "details": "Select all captured 4 questions",
+      "timestamp": "2025-08-28T09:33:19.435686"
+    },
+    {
+      "test_name": "Clear Selection",
+      "passed": true,
+      "details": "Selection cleared successfully",
+      "timestamp": "2025-08-28T09:33:19.435694"
+    },
+    {
+      "test_name": "Edit Action Preparation",
+      "passed": true,
+      "details": "Edit data structure prepared correctly",
+      "timestamp": "2025-08-28T09:33:19.435721"
+    },
+    {
+      "test_name": "Duplicate Action Preparation",
+      "passed": true,
+      "details": "Duplicate data prepared with new ID",
+      "timestamp": "2025-08-28T09:33:19.435732"
+    },
+    {
+      "test_name": "Export Action Preparation",
+      "passed": true,
+      "details": "Export data prepared with timestamp",
+      "timestamp": "2025-08-28T09:33:19.435744"
+    },
+    {
+      "test_name": "Bulk Selection",
+      "passed": true,
+      "details": "Selected 2 questions for bulk operation",
+      "timestamp": "2025-08-28T09:33:19.435776"
+    },
+    {
+      "test_name": "Bulk Delete Preparation",
+      "passed": true,
+      "details": "Prepared 2 questions for bulk delete",
+      "timestamp": "2025-08-28T09:33:19.435787"
+    },
+    {
+      "test_name": "Bulk Export Preparation",
+      "passed": true,
+      "details": "Prepared 2 questions for bulk export",
+      "timestamp": "2025-08-28T09:33:19.435799"
+    },
+    {
+      "test_name": "Session State Initialization",
+      "passed": true,
+      "details": "Session state structure initialized correctly",
+      "timestamp": "2025-08-28T09:33:19.435825"
+    },
+    {
+      "test_name": "Session Data Persistence",
+      "passed": true,
+      "details": "Session contains 4 questions",
+      "timestamp": "2025-08-28T09:33:19.435835"
+    },
+    {
+      "test_name": "Session State Updates",
+      "passed": true,
+      "details": "Session state updated successfully",
+      "timestamp": "2025-08-28T09:33:19.435844"
+    },
+    {
+      "test_name": "Empty Questions Handling",
+      "passed": true,
+      "details": "Empty question list handled correctly",
+      "timestamp": "2025-08-28T09:33:19.435865"
+    },
+    {
+      "test_name": "Malformed Question Detection",
+      "passed": true,
+      "details": "Detected 3 missing fields: ['QuestionText', 'QuestionType', 'CorrectAnswer']",
+      "timestamp": "2025-08-28T09:33:19.435878"
+    },
+    {
+      "test_name": "Storage Error Handling",
+      "passed": true,
+      "details": "Storage service errors handled appropriately",
+      "timestamp": "2025-08-28T09:33:19.535413"
+    },
+    {
+      "test_name": "Question ID Validation",
+      "passed": true,
+      "details": "Valid ID: 'question_123', Invalid ID: ''",
+      "timestamp": "2025-08-28T09:33:19.535457"
+    },
+    {
+      "test_name": "Question Text Validation",
+      "passed": true,
+      "details": "Valid text length: 30, Invalid text length: 0",
+      "timestamp": "2025-08-28T09:33:19.535470"
+    },
+    {
+      "test_name": "Question Type Validation",
+      "passed": true,
+      "details": "Valid types: ['multiple_choice', 'true_false'], Invalid type: 'invalid_type'",
+      "timestamp": "2025-08-28T09:33:19.535483"
+    },
+    {
+      "test_name": "MC Answer Validation",
+      "passed": true,
+      "details": "Correct answer 'Paris' in options, Invalid answer 'Rome' not in options",
+      "timestamp": "2025-08-28T09:33:19.535495"
+    },
+    {
+      "test_name": "TF Answer Validation",
+      "passed": true,
+      "details": "Invalid TF answer 'Maybe' correctly rejected",
+      "timestamp": "2025-08-28T09:33:19.535507"
+    }
+  ]
+}
